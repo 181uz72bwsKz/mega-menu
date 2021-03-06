@@ -28,6 +28,10 @@ body{
      margin:0;
      padding:0;
  }
+ a{
+     text-decoration:none;
+
+ }
 
  /*header*/
  .header{
@@ -40,8 +44,13 @@ body{
 .header .item-left{
     flex: 0 0 17%;
 }
+.header .logo a{
+    font-size:30px;
+    color:#000;
+
+}
 .header .item-center {
-    flex: 0 0 66%;
+        flex: 0 0 66%;
 }
 .header .item-right {
     flex: 0 0 17%;
