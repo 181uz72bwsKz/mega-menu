@@ -30,6 +30,13 @@ body{
  }
 
  /*header*/
+ .header{
+     display:block;
+     width:100%;
+     position:relative;
+     z-index:99;
+     padding:15px;
+ }
 .header .item-left{
     flex: 0 0 17%;
 }
