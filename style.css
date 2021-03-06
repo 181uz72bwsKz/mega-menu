@@ -13,9 +13,7 @@ body{
  }
 
 .banner-section {
-    background-image: url("../img/welcome.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color:red;
     height: 700px;
     width: 100%;
     display: block;
