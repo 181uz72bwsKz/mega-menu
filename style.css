@@ -96,7 +96,7 @@ a {
             text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
         }
 
-    .header .item-right a ,
+    .header .item-right a:hover, 
     .header .menu > ul > li:hover > a {
         color: #89724d;
     }
