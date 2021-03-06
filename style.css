@@ -12,6 +12,21 @@ body{
      box-sizing: border-box;
  }
 
+ .container{
+     max-width: 1200px;
+     margin:auto;
+ }
+ /*header*/
+.header .item-left{
+    background-color: yellow;
+}
+.header .item-center {
+    background-color: red;
+}
+.header .item-right {
+    background-color: blue;
+}
+/*banner*/
 .banner-section {
     background-image: url('../img/welcome.jpg');
     background-size: cover;
