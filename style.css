@@ -12,11 +12,11 @@ body{
      box-sizing: border-box;
  }
 
-.banner-section{
+.banner-section {
     background-image: url("../img/welcome.jpg");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     height: 700px;
     width: 100%;
-    display:block;
+    display: block;
 }
