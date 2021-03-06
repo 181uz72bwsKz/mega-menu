@@ -44,9 +44,7 @@ body{
 }
 /*banner*/
 .banner-section {
-    background-image: url("../img/mountains-bkgd.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color:rebeccapurple;
     height: 700px;
     width: 100%;
     display: block;
