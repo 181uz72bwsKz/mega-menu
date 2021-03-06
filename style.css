@@ -1,0 +1,22 @@
+
+body{
+    line-height:1.5;
+}
+
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+ :before,:after{
+     box-sizing: border-box;
+ }
+
+.banner-section{
+    background-image: url('../img/welcome.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+    display:block;
+}
