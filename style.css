@@ -48,6 +48,8 @@ body{
 }
 .header .menu > ul > li{
     display: inline-block;
+    line-height:50px;
+    margin-left:25px;
 }
 /*banner*/
 .banner-section {
