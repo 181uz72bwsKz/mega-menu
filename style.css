@@ -100,7 +100,7 @@ a {
         .header .menu > ul > li .sub-menu {
             position: absolute;
             z-index: 500;
-            background-color: #fff;
+            background-color: #c7c7c7;
             box-shadow: -2px 2px 70px -25px rgba(0,0,0,0.3);
             padding: 20px 30px;
             transition: all 0.5s ease;
