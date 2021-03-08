@@ -146,11 +146,16 @@ a {
             flex-wrap: wrap;
         }
 
-        .header .menu > ul > li .sub-menu > ul > li > a:hover,
-        .header .item-right a:hover,
-        .header .menu > ul > li:hover > a {
-            color: #89724d;
-        }
+            .header .menu > ul > li .sub-menu.mega-column > .list-item{
+                flex: 0 0 25%;
+                padding: 0 15px;
+            }
+
+            .header .menu > ul > li .sub-menu > ul > li > a:hover,
+            .header .item-right a:hover,
+            .header .menu > ul > li:hover > a {
+                color: #89724d;
+            }
 /*banner*/
 .banner-section {
     background-color: rebeccapurple;
