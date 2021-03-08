@@ -152,7 +152,15 @@ a {
                 padding: 0 15px;
             }
 
-                .header .menu > ul > li .sub-menu.mega-column > .list-item img{
+                .header .menu > ul > li .sub-menu.mega-column > .list-item .title {
+                    font-size: 16px;
+                    color: #89724d;
+                    font-weight: 500;
+                    line-height: 1;
+                    padding: 10px 0;
+                }
+
+                .header .menu > ul > li .sub-menu.mega-column > .list-item img {
                     max-width: 100%;
                     width: 100%;
                     vertical-align: middle;
