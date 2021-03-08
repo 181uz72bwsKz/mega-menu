@@ -134,6 +134,19 @@ a {
             max-width: 350px;
         }
 
+        .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li {
+            line-height: 1;
+            display: block;
+        }
+
+            .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
+                padding: 10px 0;
+                display: inline-block;
+                font-size: 15px;
+                color: #000;
+                transition: color 0.3s ease;
+            }
+
         .header .menu > ul > li .sub-menu.mega-menu {
             left: 50%;
             transform: translate(-50%);
@@ -144,10 +157,10 @@ a {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            padding: 20px 15px;
+            padding: 30px 15px;
         }
 
-            .header .menu > ul > li .sub-menu.mega-column > .list-item{
+            .header .menu > ul > li .sub-menu.mega-column > .list-item {
                 flex: 0 0 25%;
                 padding: 0 15px;
             }
@@ -166,11 +179,12 @@ a {
                     vertical-align: middle;
                 }
 
-                .header .menu > ul > li .sub-menu > ul > li > a:hover,
-                .header .item-right a:hover,
-                .header .menu > ul > li:hover > a {
-                    color: #89724d;
-                }
+        .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a:hover,
+        .header .menu > ul > li .sub-menu > ul > li > a:hover,
+        .header .item-right a:hover,
+        .header .menu > ul > li:hover > a {
+            color: #89724d;
+        }
 /*banner*/
 .banner-section {
     background-color: rebeccapurple;
