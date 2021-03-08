@@ -104,7 +104,18 @@ a {
                 padding: 20px 30px;
             }
 
-                .header .menu > ul > li .single-column-menu{
+                .header .menu > ul > li .sub-menu > ul > li{
+                    line-height: 1;
+                }
+
+                .header .menu > ul > li .sub-menu > ul > li > a{
+                    display: inline-block;
+                    padding: 10px 0;
+                    font-size: 15px;
+                    color: #000;
+                }
+
+                .header .menu > ul > li .single-column-menu {
                     min-width: 280px;
                     max-width: 350px;
                 }
