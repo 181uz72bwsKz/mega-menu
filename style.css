@@ -96,10 +96,17 @@ a {
             text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.658);
         }
 
-    .header .item-right a:hover, 
-    .header .menu > ul > li:hover > a {
-        color: #89724d;
-    }
+            .header .menu > ul > li .sub-menu {
+                position: absolute;
+                z-index: 500;
+                background-color: #757575;
+                box-shadow: -2px 2px 70px -25px rgba(0,0,0,0.3);
+            }
+
+            .header .item-right a:hover,
+            .header .menu > ul > li:hover > a {
+                color: #89724d;
+            }
 /*banner*/
 .banner-section {
     background-color: rebeccapurple;
