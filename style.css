@@ -124,6 +124,7 @@ a {
                     color: #000;
                     transition: color 0.3s ease;
                     text-decoration: none;
+                    text-transform: capitalize;
                 }
 
                 .header .menu > ul > li .single-column-menu {
